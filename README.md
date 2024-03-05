@@ -12,19 +12,19 @@ account after communication, it becomes a client of MTS Investments.
 
 # Data structure
 Data is given in 2 csv files with the following structure:
-# Host table. 
+# Host table
 Contains information about subscriber traffic for each day.
-The msisdn- request_dt- host composite key
-• msisdn - subscriber's number
-• request_dt - date of access to the host
-• host - the name of the application host
-• traffic_volume - the amount of data uploaded by the subscriber
-# Communication table
-A table with data on advertising communications –
-The msisdn- event_dt composite key
-• msisdn - subscriber's number
-• event_dt - date of the event
-• application_flg - flag: is the brokerage account open after communication
+The msisdn- request_dt- host composite key  
+• msisdn - subscriber's number  
+• request_dt - date of access to the host  
+• host - the name of the application host  
+• traffic_volume - the amount of data uploaded by the subscriber  
+# Communication table  
+A table with data on advertising communications   
+The msisdn- event_dt composite key  
+• msisdn - subscriber's number  
+• event_dt - date of the event  
+• application_flg - flag: is the brokerage account open after communication  
 
 # 1 task 
 Create a target showcase with the following indicators:
