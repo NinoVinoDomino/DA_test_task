@@ -14,25 +14,25 @@ account after communication, it becomes a client of MTS Investments.
 Data is given in 2 csv files with the following structure:
 # Host table
 Contains information about subscriber traffic for each day.
-The msisdn- request_dt- host composite key  
-• msisdn - subscriber's number  
-• request_dt - date of access to the host  
-• host - the name of the application host  
-• traffic_volume - the amount of data uploaded by the subscriber  
+The *msisdn*- *request_dt* - host composite key  
+• *msisdn* - subscriber's number  
+• *request_dt* - date of access to the host  
+• *host* - the name of the application host  
+• *traffic_volume* - the amount of data uploaded by the subscriber  
 # Communication table  
 A table with data on advertising communications   
-The msisdn- event_dt composite key  
-• msisdn - subscriber's number  
-• event_dt - date of the event  
-• application_flg - flag: is the brokerage account open after communication  
+The *msisdn*- *event_dt* composite key  
+• *msisdn* - subscriber's number  
+• *event_dt* - date of the event  
+• *application_flg* - flag: is the brokerage account open after communication  
 
 # 1 task 
 Create a target showcase with the following indicators:
-• msisdn is the subscriber's number
-• event_dt - date of the event
-• application_flg - flag: is the brokerage account open after communication
-• host – the name of the application host
-• sum_traffic_volume - total traffic for the last 14 days before the event date
+• *msisdn* is the subscriber's number  
+• *event_dt* - date of the event  
+• *application_flg* - flag: is the brokerage account open after communication  
+• *host* – the name of the application host  
+• *sum_traffic_volume* - total traffic for the last 14 days before the event date  
 
 # Soluction
 In short, the key points for the target showcase are: 
